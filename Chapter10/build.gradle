@@ -1,0 +1,40 @@
+group 'com.programming.kotlin'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.0.4'
+
+    repositories {
+        maven { url "https://dl.bintray.com/kotlin/kotlin-dev" }
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'kotlin'
+apply plugin: 'application'
+mainClassName = "com.programming.kotlin.chapter10.ProgramKt"
+
+repositories {
+    maven { url "https://dl.bintray.com/kotlin/kotlin-dev" }
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    compile "joda-time:joda-time:2.3"
+
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.programming.kotlin.chapter10.ProgramKt'
+        )
+    }
+
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
