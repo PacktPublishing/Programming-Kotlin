@@ -1,5 +1,5 @@
 #Programming Kotlin
-This is the code repository for [Programming Kotlin](https://www.packtpub.com/application-development/programming-kotlin?utm_source=GitHub&utm_medium=repository&utm_campaign=9781787126367), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [Programming Kotlin](https://www.packtpub.com/application-development/programming-kotlin?utm_source=GitHub&utm_medium=repository&utm_campaign=9781787126367), published by [Packt](https://www.packtpub.com/?utm_source=GitHub&utm_medium=repository&utm_campaign=packt). It contains all the supporting project files necessary to work through the book from start to finish.
 
 #About the Book
 Kotlin has been making waves ever since it was open sourced by JetBrains in 2011; it has been praised by developers across the world and is already being adopted by companies. This book provides a detailed introduction to Kotlin that shows you all its features and will enable you to write Kotlin code to production.
