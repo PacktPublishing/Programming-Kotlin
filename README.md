@@ -14,7 +14,6 @@ public Sensor(String id, double value) {
   this.value = value; 
 }
 ```
-You will need a good understanding of R or another programming language. Preliminary experience of programming and data analysis will be helpful as well. You will need to appreciate algorithms that can be applied in scale to build applications.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-13)
 
