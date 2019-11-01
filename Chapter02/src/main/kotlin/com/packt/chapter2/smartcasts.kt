@@ -27,5 +27,5 @@ fun length(any: Any): Int {
 fun safeCast() {
   val any = "/home/users"
   val string: String? = any as String
-  val file: File? = any as File
+  val file: File? = any as? File
 }
