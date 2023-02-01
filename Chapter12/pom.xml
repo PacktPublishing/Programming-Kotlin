@@ -221,7 +221,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <kotlin.version>1.1-M04</kotlin.version>
+        <kotlin.version>1.6.0-M1</kotlin.version>
         <lagom.version>1.2.0</lagom.version>
         <play.version>2.5.4</play.version>
         <conductr.lib.name>lagom10-conductr-bundle-lib_2.11</conductr.lib.name>
